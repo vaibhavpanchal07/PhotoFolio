@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    color: white;
+}
+nav i{
+    color: #949494;
+}
+.nav-link ul li{
+    color: rgb(150, 150, 150);
+    list-style: none;
+    text-transform:uppercase;
+}
+
+.nav-link:hover {
+    color: grey !important;
+}
+.nav-link:hover i{
+    color: grey !important;
+}
+.navbar-text i:hover{
+    color: white;
+}
+section{
+    height: 75vh;
+    text-align: center;
+}
+.content{
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content h1{
+    font-family: 'Cardo', serif;
+}
+.content h1 span{
+    padding: 0 8px;
+    position: relative;
+}
+.content h1 span:before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #27a776;
+    z-index: -1;
+}
+.content p{
+    color: #998f71;
+}
+
+.gallery img{
+    margin: 7px;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+.gallery{
+    padding: 15px;
+    overflow: auto;
+}
+.nav-link, .navbar-brand{
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    border-color: black !important;
+}
+.bg-dark{
+    background-color: black !important;
+}
+.navbar-brand{
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    color: #1ca45f;
+}
+
+/* ############## ABOUT ################### */
+#about-content{
+    height: 60vh;
+}
+
+/* ########### profile-sec ######### */
+#profile-sec{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 7rem;
+}
+.bi-arrow-right-circle-fill{
+    color: #1ca45f;
+}
+#profile-sec img{
+    width: 100%;
+}
+.p-details span{
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* ########### TESTIMONIALS ####### */
+.testimonials{
+    padding: 5rem;
+}
+.testimonials span{
+    color:#998f71;
+    font-size: 125%;
+    position: relative;
+}
+.testimonials .line{
+    display: inline-block;
+    width: 60px ;
+    height: 1px ;
+    background-color: #1ca45f;
+    position: absolute;
+    top: 50%;
+    left: 110%;
+}
+
+.swiper-slide img{
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid grey;
+    padding:5px;
+}
+
+
+
+/* #################### Services ################# */
+
+.services{
+    padding: 0 5rem;
+}
+
+.services .service-item{
+    background-color: #242424;
+    padding: 20px;
+    height: 250px;
+    margin-bottom: 100px;
+}
+.services .service-item:hover{
+    background-color: #1ca45f;
+
+}
+.service-item a{
+    color: white;
+
+}
+.services .service-item i {
+    background: #1ca45f;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.service-item .icon{
+    margin: 20px;
+}
+
+.price-item{
+    padding: 0 7rem 7rem 7rem;
+
+}
+.price-item .item, .price{
+    font-weight: 500;
+    font-size: 18px;
+}
+.price-item .item{
+    color: #929292;
+}
+.item-box{
+    padding: 20px;
+    border-bottom: 2px dashed grey;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10%;
+}
+
+.form{
+    width: 70%;
+    margin: auto;
+}
+
+.contact i{
+    color: #1ca45f;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.contact-form{
+    width: 70%;
+    margin: auto !important;
+}
+
+.contact-form input, .contact-form textarea{
+    background-color: #242424;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.contact-form input:focus, .contact-form textarea:focus{
+    background-color: #242424;
+    color: white;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder{
+    color: rgb(175, 175, 175);
+}
+.drop-gallery:hover .sub-list{
+    display: block;
+}
+
+.sub-list{
+    border-radius: 2px;
+    width: 15%;
+    display: none;   
+    position: absolute;
+    padding: 20px;
+    background-color: #242424;
+    color: white;
+}
+
+.sub-menu{
+    position: absolute;
+    top: 80%;
+    right: 100%;
+    padding: 20px;
+    display: none;
+    background-color: #242424;
+    color: #fff;
+    width: 100%;
+}
+.sub-main:hover .sub-menu{
+    display: block;
+}
+.sub-list a{
+    font-weight: 500;
+    color: white;
+}
+.sub-list a:hover{
+    color: #616161;
+}
+
+.g-img:hover{
+    opacity: 0.5;
+}
